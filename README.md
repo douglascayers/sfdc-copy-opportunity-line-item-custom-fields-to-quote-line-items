@@ -28,6 +28,10 @@ Getting Started
 
 ![screenshot](images/quote-line-item-field-mapping-custom-setting.png)
 
+![screenshot](images/opportunity-line-items.png)
+
+![screenshot](images/quote-line-items.png)
+
 
 Support, Issues, Questions
 --------------------------
