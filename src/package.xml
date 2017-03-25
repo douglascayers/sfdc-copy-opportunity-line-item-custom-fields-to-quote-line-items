@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>QuoteLineItemTriggerHandler</members>
+        <members>QuoteLineItemTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>QuoteLineItemTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>QuoteLineItem.Opportunity_Line_Item_ID__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Quote_Line_Item_Field_Mapping__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>QuoteLineItem</members>
+        <name>Workflow</name>
+    </types>
+    <version>39.0</version>
+</Package>

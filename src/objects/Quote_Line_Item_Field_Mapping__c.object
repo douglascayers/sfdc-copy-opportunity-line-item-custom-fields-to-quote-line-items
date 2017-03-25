@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Defines which Opportunity Line Item fields map to which Quote Line Item fields when a new Quote is created through the Salesforce user interface. By default, Salesforce only supports copying down the standard Opportunity Line Item fields to standard Quote Line Item fields. This metadata is used by Quote trigger to copy down custom Opportunity Line Item fields to custom Quote Line Item fields. The name of each record should be the API name of a custom Quote Line Item field to define a field mapping for. Only defined custom fields will be have values copied into them.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Opportunity_Line_Item_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Line Item Field</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quote Line Item Field Mapping</label>
+    <visibility>Protected</visibility>
+</CustomObject>

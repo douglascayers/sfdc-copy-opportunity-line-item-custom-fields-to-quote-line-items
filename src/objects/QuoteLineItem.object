@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Opportunity_Line_Item_ID__c</fullName>
+        <description>Expose the source opportunity line item this quote line item was created from when quote created. Populated by Workflow Rule. http://salesforce.stackexchange.com/questions/47343/does-quote-line-item-reference-back-to-which-oli-it-relates-to#comment73055_47550</description>
+        <externalId>true</externalId>
+        <label>Opportunity Line Item ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
